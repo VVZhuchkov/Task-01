@@ -13,7 +13,7 @@ public class Exercise_7 {
         System.out.println("-----------------------------------------");
 
         for (double x = a; x <= b; x = x + h) {
-            y = 2*Math.pow(Math.sin(x),2) - Math.pow(Math.cos(x),2);
+            y = 2 * Math.pow(Math.sin(x), 2) - Math.pow(Math.cos(x), 2);
             System.out.printf("|\t%4.2f\t|\t%4.2f\t|\n", x, y);
         }
         System.out.println("-----------------------------------------");
